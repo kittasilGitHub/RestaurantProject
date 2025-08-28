@@ -1,0 +1,37 @@
+:root{
+    --main-color:  rgb(212, 182, 124);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, h1{
+    margin: 0;
+}
+
+header{
+    color: rgb(145, 173, 147);
+    text-align: center;
+    background-image: url('images/pexels-narda-yescas-724842-1566837.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 30px;
+}
+
+header h1, header h2{
+    text-shadow: 6px 6px 2px black;
+}
+
+header .header-link{
+    margin-top: 40px;
+}
+
+header a{
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    border: 3px solid var(--main-color);
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 2px 5px black;
+    border-radius: 100px;
+}    
