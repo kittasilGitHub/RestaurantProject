@@ -1,5 +1,5 @@
 :root{
-    --main-color:  rgb(212, 182, 124);
+    --main-color:  orange;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -9,9 +9,9 @@ body, h1{
 }
 
 header{
-    color: rgb(145, 173, 147);
+    color: var(--main-color);
     text-align: center;
-    background-image: url('images/pexels-narda-yescas-724842-1566837.jpg');
+    background-image: url('images/pexels-goumbik-616358.jpg');
     background-size: cover;
     background-position: center;
     padding: 60px 30px;
@@ -34,4 +34,46 @@ header a{
     text-decoration: none;
     box-shadow: 1px 2px 5px black;
     border-radius: 100px;
+}
+
+h3{
+    text-align: center;
+    font-size: 2em;
+    color: var(--main-color);
+    border-radius: 10px;
+    border: 4px dotted var(--main-color);
+    margin: 30px 20px;
+    padding: 10px;
+}
+.menus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }    
+
+.menus .menu{
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+}
+.menus .menu .menu-image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menus .menu .menu-price{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.menus .menu .menu-content{
+    padding: 15px;
+
+}
