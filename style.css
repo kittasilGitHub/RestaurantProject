@@ -109,3 +109,8 @@ header a{
     margin: 10px;
     justify-content: center;
 }
+
+footer{
+    background-color: rgb(143, 133, 133);
+    padding: 30px;
+}
